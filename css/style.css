@@ -88,7 +88,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('../images/home.jpg') no-repeat;
+    background: url('../images/Capture\ d’écran\ 2024-11-24\ 190616.png') no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -972,6 +972,39 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
+.download-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+    transition: background-color .3s ease;
+}
+
+
+.download-btn:hover {
+    background-color: var(--bg-color);
+}
+
+.download-btn:active {
+    background-color: var(--bg-color);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  
 
 /* @keyframes showRight {
     100% {
